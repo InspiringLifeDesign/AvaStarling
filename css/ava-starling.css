@@ -1,3 +1,9 @@
+header.masthead {
+  background: #7b4397;
+  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #7b4397, #dc2430); }
+}
+
 .bookTitle {
   display: block;
   font-style: italic;
