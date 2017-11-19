@@ -9,6 +9,10 @@
         .each(function() {
           this.href = 'http://amzn.to/2zWwRxs';
         });
+      $("a.paperback")
+        .each(function() {
+          this.href = 'http://amzn.to/2jqVmuE';
+        });
     }
   }, "jsonp");
 
