@@ -7,7 +7,7 @@
     if (response.country === 'GB') {
       $("a.kindle")
         .each(function() {
-          this.href = this.href = 'http://amzn.to/2zWwRxs';
+          this.href = 'http://amzn.to/2zWwRxs';
         });
     }
   }, "jsonp");
