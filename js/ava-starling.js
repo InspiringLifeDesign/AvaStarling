@@ -12,4 +12,11 @@
     }
   }, "jsonp");
 
+  // All external links to open in a new window
+  $('a')
+  		.filter('[href^="http"], [href^="//"]')
+  		.not('[href*="' + window.location.host + '"]')
+  		//.attr('rel', 'noopener noreferrer')
+  		.attr('target', '_blank');
+
 })(jQuery); // End of use strict
