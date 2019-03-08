@@ -13,6 +13,14 @@
         .each(function() {
           this.href = 'http://amzn.to/2jqVmuE';
         });
+        $("a.kindle2")
+          .each(function() {
+            this.href = 'https://amzn.to/2SRxlws';
+          });
+        $("a.paperback2")
+          .each(function() {
+            this.href = 'https://amzn.to/2J1UL2B';
+          });
     }
   }, "jsonp");
 
